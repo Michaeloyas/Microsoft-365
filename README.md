@@ -1,7 +1,7 @@
-# Office (Microsoft) 365 Part 1: Active Users, Active Groups, OneDrive, Exchange, SharePoint and Teams
+# Office (Microsoft) 365 Part 1: Active Users, Active Groups, OneDrive, Exchange, SharePoint, and Teams
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*wsy0Bg-IsK0GfvCfvtR6CQ.jpeg" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*wsy0Bg-IsK0GfvCfvtR6CQ.jpeg" height="80%" width="80%" alt="screenshot of interface"/>
 <br />
 
 ---
