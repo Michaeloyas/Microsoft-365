@@ -1,7 +1,7 @@
 # Office (Microsoft) 365 Part 1: Active Users, Active Groups, OneDrive, Exchange, SharePoint, and Teams
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*wsy0Bg-IsK0GfvCfvtR6CQ.jpeg" height="80%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*wsy0Bg-IsK0GfvCfvtR6CQ.jpeg" width="600" alt="screenshot of interface"/>
 <br />
 
 ---
@@ -12,7 +12,7 @@ Microsoft 365 (MS 365) is a comprehensive suite of productivity software, collab
 To follow along and practice, check out the **92-day free trial** by signing up for the MS 365 Dev Center Developer Program. This will grant you access to basic features.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*I9JoDkqaCf7ilc3o9kwHZQ.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*I9JoDkqaCf7ilc3o9kwHZQ.png" width="600" alt="screenshot of interface"/>
 <br />
 
 ---
@@ -42,13 +42,13 @@ Users and groups created in the **Microsoft 365 Admin Center** are replicated th
 7. **Role**: Check the option for **Admin center access** > **Next** > **Finish**.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*Vm8ik1TdD1gq3NHtsqc7hQ.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*Vm8ik1TdD1gq3NHtsqc7hQ.png" width="600" alt="screenshot of interface"/>
 <br />
 
 Repeat the same steps to create two more users and assign the "**user (No access to admin center)**" role to them. Each user created can sign in to the MS 365 environment and access resources based on the roles assigned.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*heHNuZUYRiDm6fntIBuU-w.jpeg" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*heHNuZUYRiDm6fntIBuU-w.jpeg" width="600" alt="screenshot of interface"/>
 <br />
 
 ### Manage Users
@@ -61,7 +61,7 @@ Repeat the same steps to create two more users and assign the "**user (No access
 7. **OneDrive**: The user’s files are located here. It allows you to generate and share links to files, as well as manage storage.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*BOpclcgvIlvHnDsnv6QLTw.jpeg" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*BOpclcgvIlvHnDsnv6QLTw.jpeg" width="600" alt="screenshot of interface"/>
 <br />
 
 ---
@@ -75,27 +75,27 @@ We will create and send an email from one user to another and attempt to trace t
     * **Subject**: Project Update
     * **Body**: <Craft whatever in the body>
 
-Let’s assume that the mail was sent, but Mat Fisher says he didn’t get the mail. How do we trace it? Let’s see the steps below:
+Let’s assume that the email was sent, but Mat Fisher didn’t receive it. How do we trace it? Let’s see the steps below:
 
 ### Tracing Missing Mail
 1. On the left-side menu of the **Exchange admin center**, under "**Mail Flow**," select "**Message trace**."
 2. Select "**custom queries**" > click "**Start a trace**" > Paste the sender and recipient’s mail address.
-3. Select the time range to search from, e.g., The last two days.
+3. Select the time range to search from, e.g., the last two days.
 4. **Report type**: summary report > **Search**.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*rVINoiyXpI-E0Ydimi_Glg.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*rVINoiyXpI-E0Ydimi_Glg.png" width="600" alt="screenshot of interface"/>
 <br />
 
 The result of the search will display whether the email was received, processed, delivered, or not delivered.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*njzjsvdTX9zbfdFqEH9BKw.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*njzjsvdTX9zbfdFqEH9BKw.png" width="600" alt="screenshot of interface"/>
 <br />
 
 ---
 ## Creating Shared Mailboxes
-Shared Mailboxes allow individual members of a group to send and receive emails using a single mailbox without using their user mailbox. For instance, we can create a shared mailbox for the IT Support department and add members of the department to the mailbox. This allows the team to attend to customers regardless of who is on the shift.
+Shared Mailboxes enable individual members of a group to send and receive emails using a single mailbox, bypassing their user mailboxes. For instance, we can create a shared mailbox for the IT Support department and add each member to it. This allows the team to attend to customers regardless of who is on the shift.
 
 ### Steps for Creating a Shared Mailbox
 1. On the left side of the **Exchange admin center**, > select "**Mailboxes**."
@@ -107,7 +107,7 @@ Shared Mailboxes allow individual members of a group to send and receive emails 
 4. Click on "**Create**."
    
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*jJgxwwA-UdRrXItqULb9Og.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*jJgxwwA-UdRrXItqULb9Og.png" width="600" alt="screenshot of interface"/>
 <br />
 
 ### Steps for adding users and access delegation
@@ -118,7 +118,7 @@ Shared Mailboxes allow individual members of a group to send and receive emails 
 5. **Read and Manage**: This permission gives the users full access to use the mailbox as the “owner.”
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*9CV-scrtKI5ByPnrj868-g.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*9CV-scrtKI5ByPnrj868-g.png" width="600" alt="screenshot of interface"/>
 <br />
 
 ### Steps for Adding a New Folder/Mailboxes
@@ -128,11 +128,11 @@ The delegates in a shared mailbox will not automatically see emails sent to the 
 3. The shared mailbox name will pop in > click to expand it, and you will see the inbox and other options.
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*0u4Fv-62otlL0pMOhu8YZA.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*0u4Fv-62otlL0pMOhu8YZA.png" width="600" alt="screenshot of interface"/>
 <br />
 
 <br />
-<img src="https://cdn-images-1.medium.com/max/1200/1*c6Zpe6bGFXrWwlUcEyxPiA.png" height="40%" width="80%" alt="screenshot of interface"/>
+<img src="https://cdn-images-1.medium.com/max/1200/1*c6Zpe6bGFXrWwlUcEyxPiA.png" width="600" alt="screenshot of interface"/>
 <br />
 
 ---
@@ -152,6 +152,10 @@ As the name implies, a distribution list allows you to send a single email to in
     * **Leaving the group**: closed //Only the group owner can remove members
 4. **Finish**.
 
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*5z0WHTjy-5boxbVCVRmZnA.png" width="600" alt="screenshot of interface"/>
+<br />
+
 ---
 ## Creating Microsoft 365 Group
 A Microsoft 365 group helps people collaborate. It includes a central email address for contacting everyone in the group and a SharePoint site for publishing information.
@@ -168,6 +172,10 @@ A Microsoft 365 group helps people collaborate. It includes a central email addr
     * **Group email**: itdptgroup@<choose the domain you created>
 4. **Finish**.
 
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*fXm9tD5rx9-m-g6FdrzIUQ.jpeg" width="600" alt="screenshot of interface"/>
+<br />
+
 ---
 ## SharePoint
 SharePoint is a web-based collaborative platform that integrates natively with Microsoft 365. It allows you to build intranet sites and create pages, document libraries, and store and share files.
@@ -177,6 +185,15 @@ Every MS 365 group you create will show up under active sites. Use the steps bel
 1. On the left side of the **MS 365 Admin Center**, scroll down and click on **SharePoint**.
 2. Click on **sites** > **Active Sites**.
 3. Click on the **IT Department Group** we created from the previous step > **view site**.
+
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*w3LETSQUScWwGj2eYTFLkA.jpeg" width="600" alt="screenshot of interface"/>
+<br />
+
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*HcF6DhM-hlK5RJbbyrx0Yw.jpeg" width="600" alt="screenshot of interface"/>
+<br />
+
 
 More on SharePoint sites will be covered in the second part of the Microsoft 365 tutorial.
 
@@ -189,15 +206,40 @@ If a user deleted an important document and for some reason also emptied the rec
 2. Click on **OneDrive** > click on "**Create a link to file**."
 3. Click on the link to take you to the user’s file on OneDrive.
 
-On OneDrive, click on "**My files**" to see the user's file.
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*uidO0JIovqmaLSobCJr4dA.jpeg" width="600" alt="screenshot of interface"/>
+<br />
+
+
+On OneDrive, click on "**My files**" to see the user's files.
+
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*uidO0JIovqmaLSobCJr4dA.jpeg" width="600" alt="screenshot of interface"/>
+<br />
 
 Let’s delete “Important\_internal\_memo” and also empty the recycle bin.
+
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*cgy5Tjir7zxrEfw5zPV9Gw.jpeg" width="600" alt="screenshot of interface"/>
+<br />
+
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*d3BGaYmI_YM1nJ0S-ONCyw.jpeg" width="600" alt="screenshot of interface"/>
+<br />
 
 ### Restore Deleted Files
 1. Click on the **Recycle bin** > scroll down and locate "**Second stage recycle bin**."
 2. From the second stage recycle bin, click on the file you want to restore > Click on the "**restore**" option.
 
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*y95bPbpcjO24gbfote2VaQ.jpeg" width="600" alt="screenshot of interface"/>
+<br />
+
 That restores the file to its original folder.
+
+<br />
+<img src="https://cdn-images-1.medium.com/max/1200/1*j8FGHlgOnFsqa2MugrS3Qw.jpeg" width="600" alt="screenshot of interface"/>
+<br />
 
 ---
 ## Conclusion
